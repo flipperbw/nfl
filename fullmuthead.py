@@ -104,6 +104,10 @@ for i in range(1, max_pages):
     a.update(qj)
     sleep(1.5)
 
+for k in stored.keys():
+    if sk not in a:
+        del stored[sk]
+
 # fix harvester and get additional data from each player page
 for k,v in a.iteritems():
     if k in stored:

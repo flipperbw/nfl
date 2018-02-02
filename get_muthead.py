@@ -7,8 +7,6 @@ from time import sleep
 from termcolor import colored
 
 players = [
-        '25111-brent-grimes',
-        '21244-ronde-barber',
         '1018001323-adam-vinatieri',
         '3-adam-vinatieri',
         '1018011695-johnny-hekker',
